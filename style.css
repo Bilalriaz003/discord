@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #010126;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010126;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headercent ul li {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+
+.headercent ul li :hover {
+    text-decoration: underline white;
+}
+
+button {
+    border: 2px solid black;
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+.main {
+    background: url(images/664dae3aa8fa28593aa47cc6_CHARACTERS\ FULL.webp);
+    height: 100vh;
+
+
+}
+
+.text {
+    color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+.medium {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-left: 250px;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.foot a {
+    color: rgb(163, 160, 160);
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower button {
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-top: 80px;
+
+}
+
+.image {
+    margin-right: 150px;
+
+}
